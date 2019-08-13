@@ -19,6 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 /**count*/
 @property (nonatomic,assign) NSInteger count;
 
+/**users*/
+@property (nonatomic,strong) NSMutableArray *users;
+
 
 @end
 

@@ -18,6 +18,9 @@
 		7ABAD8042302E7C800FB23E4 /* ZCTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABAD8032302E7C800FB23E4 /* ZCTagModel.m */; };
 		7ABAD8062302EC7D00FB23E4 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABAD8052302EC7D00FB23E4 /* Foundation+Log.m */; };
 		7ABAD8092302F25F00FB23E4 /* PrintBeautifulLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABAD8082302F25F00FB23E4 /* PrintBeautifulLog.m */; };
+		7ABAD80C2302F45900FB23E4 /* ZCUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABAD80B2302F45900FB23E4 /* ZCUserModel.m */; };
+		7ABAD8102302F47100FB23E4 /* ZCUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABAD80E2302F47100FB23E4 /* ZCUserCell.m */; };
+		7ABAD8112302F47100FB23E4 /* ZCUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ABAD80F2302F47100FB23E4 /* ZCUserCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,11 @@
 		7ABAD8052302EC7D00FB23E4 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		7ABAD8072302F25F00FB23E4 /* PrintBeautifulLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintBeautifulLog.h; sourceTree = "<group>"; };
 		7ABAD8082302F25F00FB23E4 /* PrintBeautifulLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintBeautifulLog.m; sourceTree = "<group>"; };
+		7ABAD80A2302F45900FB23E4 /* ZCUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCUserModel.h; sourceTree = "<group>"; };
+		7ABAD80B2302F45900FB23E4 /* ZCUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCUserModel.m; sourceTree = "<group>"; };
+		7ABAD80D2302F47100FB23E4 /* ZCUserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCUserCell.h; sourceTree = "<group>"; };
+		7ABAD80E2302F47100FB23E4 /* ZCUserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCUserCell.m; sourceTree = "<group>"; };
+		7ABAD80F2302F47100FB23E4 /* ZCUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZCUserCell.xib; sourceTree = "<group>"; };
 		EA8F402226E39B42365A86E7 /* Pods-BothTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BothTableViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-BothTableViewDemo/Pods-BothTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +147,8 @@
 			children = (
 				7ABAD8022302E7C800FB23E4 /* ZCTagModel.h */,
 				7ABAD8032302E7C800FB23E4 /* ZCTagModel.m */,
+				7ABAD80A2302F45900FB23E4 /* ZCUserModel.h */,
+				7ABAD80B2302F45900FB23E4 /* ZCUserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +159,9 @@
 				7ABAD7FD2302E70100FB23E4 /* ZCTagCell.h */,
 				7ABAD7FE2302E70100FB23E4 /* ZCTagCell.m */,
 				7ABAD7FF2302E70100FB23E4 /* ZCTagCell.xib */,
+				7ABAD80D2302F47100FB23E4 /* ZCUserCell.h */,
+				7ABAD80E2302F47100FB23E4 /* ZCUserCell.m */,
+				7ABAD80F2302F47100FB23E4 /* ZCUserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,6 +229,7 @@
 				7A773BB72302DF930038D9E5 /* Assets.xcassets in Resources */,
 				7ABAD8012302E70100FB23E4 /* ZCTagCell.xib in Resources */,
 				7ABAD7FC2302E6D400FB23E4 /* ZCViewController.xib in Resources */,
+				7ABAD8112302F47100FB23E4 /* ZCUserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +287,10 @@
 				7ABAD8092302F25F00FB23E4 /* PrintBeautifulLog.m in Sources */,
 				7A773BBD2302DF930038D9E5 /* main.m in Sources */,
 				7ABAD7FB2302E6D400FB23E4 /* ZCViewController.m in Sources */,
+				7ABAD80C2302F45900FB23E4 /* ZCUserModel.m in Sources */,
 				7ABAD8002302E70100FB23E4 /* ZCTagCell.m in Sources */,
 				7ABAD8062302EC7D00FB23E4 /* Foundation+Log.m in Sources */,
+				7ABAD8102302F47100FB23E4 /* ZCUserCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
